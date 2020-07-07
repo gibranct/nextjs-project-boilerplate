@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home({ title = 'React Avançado' }) {
   return (
@@ -9,9 +9,7 @@ export default function Home({ title = 'React Avançado' }) {
       </Head>
 
       <main>
-        <h1 className="title">
-          {title}
-        </h1>
+        <h1 className="title">{title}</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -205,5 +203,5 @@ export default function Home({ title = 'React Avançado' }) {
         }
       `}</style>
     </div>
-  )
+  );
 }
